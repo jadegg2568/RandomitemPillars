@@ -1,0 +1,15 @@
+name: RandomItemPillars
+version: '${project.version}'
+main: ru.jadegg2568.randomitempillars.Main
+api-version: '1.20'
+prefix: Minigame
+authors: [JadeGG_]
+description: survival on pillars with random items! The last one is winning.
+website: jadegg2568.github.io
+commands:
+  arenas:
+    description: arenas
+    usage: /arenas help
+  mode:
+    description: arena mode select
+    usage: /arenas <mode>
