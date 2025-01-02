@@ -134,7 +134,7 @@ public class Arena {
                     .append(Component.text( " зашёл.").color(ColorReference.chatColor)));
             player.sendMessage(Component.text( "Проголосовать за режим - ").color(ColorReference.chatColor)
                     .append(Component.text( "/mode <режим>, возможные режимы (число означает задержку выдачи):").color(ColorReference.chatColor2)));
-            for (ArenaMode arenaMode :ArenaMode.values()) {
+            for (ArenaMode arenaMode : ArenaMode.values()) {
                 player.sendMessage(Component.text( "- " + arenaMode.name()).color(ColorReference.chatColor2));
             }
 
